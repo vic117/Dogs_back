@@ -1,0 +1,19 @@
+{
+  "name": "dogs",
+  "version": "1.0.0",
+  "description": "Back end Dogs' troubles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js -f *.graphql"
+
+  },
+  "author": "Vic Perez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "graphql-yoga": "^1.18.3",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.2"
+  }
+}

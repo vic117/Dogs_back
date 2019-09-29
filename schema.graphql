@@ -1,0 +1,17 @@
+
+    type Query{
+        hello(name:String):String!
+        getUsers:[User!]
+
+    }
+
+    type Mutation{
+        createUser(name:String!,age:Int!):User
+    }
+
+    type User{
+        id:Int!
+        name:String!
+        age:Int!
+    }
+
